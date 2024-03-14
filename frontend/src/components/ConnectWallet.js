@@ -16,13 +16,14 @@ export function ConnectWallet({ connectWallet, networkError, dismiss }) {
           )}
         </div>
         <div className="col-6 p-4 text-center">
+          <h1>CODE Coin</h1>
           <p>Please connect to your wallet.</p>
           <button
-            className="btn btn-warning"
+            className="btn btn-info btn-lg btn-block"
             type="button"
             onClick={connectWallet}
           >
-            Connect Wallet
+            Connect Wallet ^^
           </button>
         </div>
       </div>
